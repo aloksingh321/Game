@@ -1,0 +1,77 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  body {
+    background: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  canvas {
+    border: 1px solid white;
+    
+  }
+  #game{
+    position:absolute;
+    top:60px;
+    left:100px;
+    background-color:black;
+  }
+  div {
+    display:flex;
+  }
+   #size{
+    position:absolute;
+    top:61px;
+    left:712px;
+    width:300px;
+    height:300px;
+    font-size:35px;
+    background-color: green;
+    justify-content: center;
+    align-items:center;
+    border:1px solid white;
+
+  }
+  #score{
+    position:absolute;
+    top:80px;
+    left:803px;
+    font-size:40px;
+    z-index:1;
+    text-shadow:0px 0px 10px black;
+
+  }
+#Over{
+  position:absolute;
+  top:330px;
+  left:197px;
+  font-size:65px;
+  text-decoration-color:white;
+  color:white;
+  display:none;
+  justify-content: center;
+ text-shadow:0px 0px 10px white;
+ z-index:1;
+}
+#btn{
+position:absolute;
+top:270px;
+left:356px;
+background-color:black;
+cursor:pointer;
+padding:12px 24px;
+color:white;
+}
+#design
+{
+  display:flex;
+position:absolute;
+top:0px;
+left:1056px;
+color:black;
+flex-direction:column-reverse;
+justify-content:space-around;
+text-shadow:0px 0px 10px black;
+}
